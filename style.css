@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+ }
+ 
+ body {
+  width: 99%;
+  height: 100vh;
+  background-color: #13262f;
+ }
+
+ .center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+ 
+ h1 {
+  font-family: 'Staatliches', cursive;
+  font-size: 5em;
+  color: white;
+ }
+
+ h2 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 2em;
+ }
+
+ p {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.3em;
+ }
+
+ .container {
+   width: 100%;
+   margin-top: 2em;
+ }
+
+ .containerThree {
+  margin-top: 2em;
+  margin-bottom: 2em;
+ }
+
+ input {
+   width: 70%;
+   height: 3rem;
+   font-size: 1.8em;
+   border-radius: 5px;
+ }
+
+ .searchBox {
+   padding-left: 0.5em;
+ }
+
+ button {
+   height: 3rem;
+   width: 4rem;
+   border-radius: 0 5px 5px 0;
+   background-color: white;
+   visibility: hidden;
+ }
+
+ .card {
+  margin-top: 2em;
+  padding: 1em;
+  border-radius: 10px;
+  width: 70%;
+  height: 350px;
+  background-color: white;
+ }
